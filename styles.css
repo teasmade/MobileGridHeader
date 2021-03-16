@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 43em;
+}
+
+nav {
+    background-color: palegoldenrod;
+    display: grid;
+    height: 11vh;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+nav div {
+    font-family: 'Gruppo', cursive;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.logo {
+    font-family: 'Monoton', cursive;
+    font-size: 1.2rem;
+    grid-row: 1 / 4;
+    grid-column: 5 / 7;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 1vh;
+    transform: scale(1.5);
+    transition: all 2s ease-in-out;
+}
+
+.history {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    transform:translateX(22vw);
+    transition: all 2s ease-in-out;
+}
+
+.culture {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+    transform:translateX(22vw);
+    transition: all 2s ease-in-out;
+}
+
+.food {
+    grid-row: 1 / 2;
+    grid-column: 10 / 11;
+    transform:translateX(-22vw);
+    transition: all 2s ease-in-out;
+}
+
+.life {
+    grid-row: 3 / 4;
+    grid-column: 10 / 11;
+    transform:translateX(-22vw);
+    transition: all 2s ease-in-out;
+}
+
+.travel {
+    grid-row: 2 / 3;
+    grid-column: 4 / 5;
+    transform:translateX(-22vw);
+    transition: all 2s ease-in-out;
+}
+
+.events {
+    grid-row: 2 / 3;
+    grid-column: 7 / 8;
+    transform:translateX(22vw);
+    transition: all 2s ease-in-out;
+}
+
+main {
+    font-family: 'Gruppo', cursive;
+    font-size: 1.2rem;
+    margin: 2em;
+}
+
